@@ -1,0 +1,197 @@
+*{
+    margin: 0;  
+}
+
+.header{
+    width: 98%;
+    background-color: grey;
+    height: 2.1cm;
+    padding: 10px;
+    
+}
+
+ul{
+    font-size: 18px;
+    color:antiquewhite;
+    padding-left: 2.4cm;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul1{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+}
+
+.banner img{
+    height: 2.1cm ;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(b1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    /* max-width: 500px; */
+    width: 600px;
+    height: 560px;
+    background-color:antiquewhite;
+    padding: 15px;
+    margin: 45px auto 0;
+    border-top: 4px solid orange;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.container h1{
+    font-size: 25px;
+    line-height: 25px;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inputname{
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+
+.icons{
+    padding: 8px 11px;
+    color: orange;
+} 
+
+.name{
+    width: 35%;
+    padding: 8px 0 8px 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.inputname span{
+    margin-left: 57px;
+}
+
+.email{
+    width: 90%;
+    padding: 8px 0 8px 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inputname i{
+    font-size: 20px;
+    position: absolute;
+    padding: 8px 8px 8px 10px;
+    color: orange;
+    border-right: 2px solid grey;
+    border-radius: 1px;
+}
+
+.name, .email{
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 1px;
+
+}
+.name:focus, .email:focus, .button1:focus{
+    border: 2px solid orange;
+}
+
+.button{
+    margin-right: 5px;
+}
+
+.button1{
+    display: inline-block;
+    width: 100%;
+    padding: 8px 8px 8px 10px;
+    height: 35px;
+    cursor: pointer;
+    border: 2px solid grey;
+    outline: none;
+    border-radius: 1px;
+    
+}
+
+.submit1{
+    /* align-items: center; */
+    text-align: center;
+}
+
+.register{
+    width: 92%;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+    height: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.register:hover{
+    background: grey30}
+
+
+@media (max-width: 480px)
+{
+    .header {
+        width: 100%;
+        height: 130px;
+    }
+
+    ul1{
+        margin: 30px 0 0 0;
+        font-size: 35px;
+
+    }
+
+    ul{
+        font-size: 15px;
+    }
+    
+    
+    .banner img{
+        margin: 30px 0 0 10px;
+    }
+    
+    .con{
+        margin: 15px 0 0 88px;
+    }
+    .container{
+        width: 90%;
+    }
+    .inputname, label{
+        margin-bottom: -10px;
+    }
+
+    .name{
+        width: 90%;
+        padding: 8px 0 8px 40px;
+        margin-bottom: 7px;
+        
+    }
+    .inputname span{
+        margin: 0;
+        padding: 0;
+    }
+
+    .submit1{
+        margin: 20px 0 0 0 ;
+    }
+    
+    form{
+        width: 95%;
+        padding: 0 20px 6px 1px;
+    }
+}

@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    /* background-color: red; */
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(om.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    /* width: 20cm; */
+    border-radius: 10px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* font-family: 'Alegreya', serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 4cm;
+    /* font-size: 500%; */
+    /* padding: 2.2cm 0 0 2.2cm; */
+    text-transform: uppercase;
+    display: flex;
+}
+
+h2 {
+    /* width: 20cm; */
+    border-radius: 10px;
+    /* font-family: 'Alegreya', serif; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: white;
+    /* padding: 0 0 0 2.2cm; */
+    font-size: 1.5cm;
+    padding: 0;
+
+}
+
+.header {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    /* justify-content: space-between; */
+    text-align: right;
+    /* background-color: white; */
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header ul li a:hover {
+    color: purple;
+    font-weight: 900;
+
+}
+
+p {
+    width: 600px;
+    text-align: justify;
+    color: white;
+    margin-top: 60px;
+    /* padding: 1cm 0 0 2.2cm; */
+    line-height: 26px;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.submit1 {
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 600px;
+    margin-top: 25px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.register {
+    width: 2.8cm;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* margin-bottom: 15px; */
+    border-radius: 7px;
+    border: 1px solid white;
+}
+
+.icons {
+    /* padding: 8px 11px;
+    color: white;
+    border-bottom: 1px solid white; */
+
+    height: 20px;
+    padding: 7px;
+    font-family: 'Quicksand', sans-serif;
+    background: transparent;
+    color: white;   
+    border: none;
+    /* border: 2px solid white; */
+    outline: none;
+
+}
+
+.acc {
+    color: white;
+    text-decoration: solid;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.button {
+    width: 2.8cm;
+    font-size: 15px;
+    cursor: pointer;
+    /* background-color: black; */
+    color: black;
+    height: 25px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* margin-bottom: 15px; */
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.left{
+    float: left;
+    position: relative;
+    left: 2.3cm;
+    width: auto;
+    margin-top: 1.5cm;
+    /* height: auto; */
+    /* margin: 20cm; */
+    color: #fff;
+    position: relative;
+    /* left: 150px; */
+}
+.loginform .login{
+    height: 70px;
+}
+.container loginform{
+    padding: 0cm 0cm 0cm 0cm;
+    width: auto;
+    height: 300px;
+    line-height: 0px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    top: -20px;
+    left: 870px; 
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    /* padding: 25px; */
+}
+
+.container{
+    width: 300px;
+    background: linear-gradient(to top, rgba(0,0,0,0.3)50%,rgba(0,0,0,0.3)50%);
+     position: absolute;
+    top: 200px;
+    left: 1020px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    height: auto;
+    line-height: 50px;
+    box-shadow: 0 0 10px rgba(229, 225, 225, 0.5);
+    
+}
+
+.container .box{
+    height: 20px;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    background: transparent;
+    color: white;   
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    font-size: 15px;
+}
+
+.container .button{
+    height: 30px;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    background: transparent;
+    color: white;   
+    border: 2px solid white;
+}
+
+.button:focus
+{
+    border: 2px solid purple;
+}
+.box:focus{
+    border-bottom: 2px solid purple;
+}
+
+.icons1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.icons1{
+    width: 200px;
+    align-items: center ;
+    display: flex;
+    justify-content: space-between;
+
+    
+    /* word-spacing: 18px; */
+}
+
+.acc a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.acc a:hover{
+    color: blue;
+}
+.om{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width:600)
+{
+    .banner{
+        width: 100%;
+    }
+}
